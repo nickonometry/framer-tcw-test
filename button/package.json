@@ -1,0 +1,23 @@
+{
+  "name": "@tyler-components-web/button",
+  "version": "1.11.1",
+  "description": "Tyler Components Web - Button Component",
+  "main": "dist/tyler-components-web-button.umd.js",
+  "module": "esm5/button/index.js",
+  "fesm5": "dist/tyler-components-web-button.fesm5.js",
+  "fesm2015": "dist/tyler-components-web-button.fesm2015.js",
+  "esm5": "esm5/button/index.js",
+  "esm2015": "esm2015/button/index.js",
+  "es2015": "dist/tyler-components-web-button.fesm2015.js",
+  "sideEffects": false,
+  "typings": "typings/button/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@tyler-components-web/core": "^1.2.0",
+    "@material/button": "^4.0.0",
+    "@material/feature-targeting": "^4.0.0",
+    "@material/ripple": "^4.0.0",
+    "@material/theme": "^4.0.0",
+    "tslib": "^1.10.0"
+  }
+}
